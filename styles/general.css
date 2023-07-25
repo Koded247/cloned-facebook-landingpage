@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    
+    background-color:rgb(232, 236, 240);
+    position: relative;
+    
+}
+html {scroll-behavior: smooth;
+}
+
+
+/* FOOTER SECTION */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 1rem;
+    max-width: 300px;
+    font-size: 0.8rem;
+    color: rgb(113, 112, 112);
+    
+}
+.send-message-button {
+position: fixed;
+bottom: 1rem;
+right: 1rem;
+background-color: white;
+padding: 0.9rem;
+border-radius: 50%;
+box-shadow: 1px 1px 8px 2px grey;
+
+}
+.send-message-button button {
+    font-size: 1.2rem;
+    border: none;
+}
+
+
+         /* MAIN SECTION CSS */
+
+main {
+    
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color:transparent;
+    margin-top: 1.5em;
+    max-width: 500px;
+    
+}
+
+         /* STORY SECTION  */
+
+.story-nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.3rem;
+    border-bottom: 1px solid  rgb(231, 230, 230);
+}
+
+.story-img {
+    width: 100%;
+    min-height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.create-story-pic {
+    max-width: 130px;
+    min-height: 200px;
+  
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 2px 01px grey;
+}
+figcaption{
+    margin-top: 1em;
+}
+.addstory-button{
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(69, 139, 243);
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    bottom: 30px;
+    right: 35px;
+    
+}
+.display-story {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+
+}
+.story-info {
+  display: flex;
+  flex-direction: column;  
+  gap: 1rem;
+  
+  
+}
+
+.story-info label {
+    font-size: 0.8rem;
+    margin-left: 5px;
+    
+    
+}
+.story-info i {
+font-size: 1.5rem;
+}
+.section-one {
+    box-shadow: 0 0 5px 1px grey;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+/* 
+WHATS ON MIND POST AND PIC UPLOAD SECTION 2*/
+
+.section-two{
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px grey;
+}
+.post-text {
+    display: flex;
+    padding: 0 0 1rem 0;
+    gap: 1rem;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+.post-text img {
+    border-radius: 50%;
+}
+
+.post-text input {
+border-radius: 20px;
+border: none;
+background-color: rgb(240, 240, 240);
+font-size: 1rem;
+padding-left: 1rem;
+}
+.post-upload-button{
+    display: flex;
+   justify-content: space-around; 
+   
+}
+.post-upload-button i{
+    font-size: 1.5rem;
+    margin-right: 6px ;
+}
+.post-upload-button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1.5rem ;
+    border: none;
+    margin-top: 1rem;
+    background-color: transparent;
+}
+.post-upload-button button:hover{
+    background-color:  rgb(246, 246, 246);
+    border-radius: 10px;
+}
+
+/* TIMELINE NEWS FEED SECTION RANDOM FIRST POST */
+.section-three {
+    background-color: white;
+    margin-bottom: 1rem;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px grey;
+
+}
+
+.pic-time {
+    display: flex;
+    gap:10px ;
+    
+    
+}
+.channel-name-time{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;  
+}
+.menucancel-button button {
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+}
+.feed-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.feed-details {
+    padding: 1rem;
+}
+.section-three img {
+    width: 100%;
+    
+}
+.section-three figcaption i {
+    background-color: rgb(0, 81, 255);
+    padding: 0.2rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.click-like-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid grey;
+    
+    
+}
+.click-like-button button{
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
